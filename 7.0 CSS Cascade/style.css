@@ -7,7 +7,6 @@
 .box {
   background-color: blue;
   padding: 10px;
-  margin: 10px;
 }
 
 p {
@@ -16,3 +15,10 @@ p {
   padding: 0;
 }
 
+.inner-box{
+  background-color: red;
+}
+
+.white-text{
+  color: white;
+}
