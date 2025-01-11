@@ -1,4 +1,4 @@
-function bmiCalculator (weight, height) 
+function bmiCalculator (weight, height) {
     var bmi = weight / (height * height);
    
     if (bmi < 18.5) {
@@ -8,3 +8,4 @@ function bmiCalculator (weight, height)
     } else { interpretation = "Your BMI is <bmi>, so you are overweight."
     }
     return interpretation;
+}
